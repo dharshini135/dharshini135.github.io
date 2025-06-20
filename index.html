@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dharshini N | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    nav {
+      background-color: #4a148c;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    h2 {
+      color: #4a148c;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .hero {
+      background: linear-gradient(to right, #4a148c, #7e57c2);
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      background-color: white;
+      color: #4a148c;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .hero button:hover {
+      background-color: #ede7f6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    a {
+      color: #4a148c;
+      text-decoration: none;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div><strong>🌟 Dharshini N</strong></div>
+    <div>
+      <a href="#about">👩‍💻 About</a>
+      <a href="#skills">🛠️ Skills</a>
+      <a href="#certificates">📜 Certificates</a>
+      <a href="#projects">💡 Projects</a>
+      <a href="#papers">📝 Papers</a>
+      <a href="#interests">🎯 Interests</a>
+      <a href="#contact">📬 Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Hi, I'm Dharshini 👩‍💻</h1>
+    <p>A passionate front-end learner with a love for design, code, and creativity 🌱</p>
+    <a href="#contact">
+      <button>📩 Contact Me</button>
+    </a>
+  </section>
+
+  <section id="about">
+    <h2>👩‍💻 About Me</h2>
+    <p>I’m a self-driven learner and a final-year EEE student with a passion for front-end development. I have independently learned HTML, CSS, and Excel, exploring both theory and practical aspects. After gaining knowledge, I make sure to apply it by taking part in hands-on projects and completing certification courses. My curiosity and consistency helped me build a strong base in front-end web development, and I'm now working toward making creative, user-friendly web pages.</p>
+  </section>
+
+  <section id="skills">
+    <h2>🛠️ Technical Skills</h2>
+    <div class="grid">
+      <div class="card">HTML – Intermediate</div>
+      <div class="card">CSS – Intermediate</div>
+      <div class="card">Excel – Intermediate</div>
+      <div class="card">C Programming – Basics</div>
+    </div>
+  </section>
+<section id="certificates">
+  <h2>📜 Certificates</h2>
+  <div class="grid">
+    <div class="card">
+      <img src= "C:\Users\DHARSHINI\OneDrive\Desktop\HTML TUTORIAL\HTML\cerificates - Copy\GuviCertification - 37767sviM0D34K1699.png"alt="Front-End Championship Certificate" style="width:100%; border-radius: 8px;" />
+      <p><strong>Front-End Championship – GUVI</strong></p>
+    </div>
+    <div class="card">
+      <img src="C:\Users\DHARSHINI\OneDrive\Desktop\HTML TUTORIAL\HTML\cerificates - Copy\excel.jpg"alt="Excel Certificate" style="width:100%; border-radius: 8px;" />
+      <p><strong>Excel – Let's Upgrade</strong></p>
+    </div>
+    <div class="card">
+      <img src="C:\Users\DHARSHINI\OneDrive\Desktop\HTML TUTORIAL\HTML\cerificates - Copy\GuviCertification - S6BA07051W7v8Zdx56.png"alt="HTML & CSS Certificate" style="width:100%; border-radius: 8px;" />
+      <p><strong>HTML & CSS – GUVI</strong></p>
+    </div>
+  </div>
+</section>
+
+  
+
+  <section id="projects">
+    <h2>💡 Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <strong>Portfolio Website</strong><br />
+        A personal site showcasing my skills, certificates, and projects using HTML and CSS.
+      </div>
+      <div class="card">
+        <strong>Excel Tracker</strong><br />
+        A simple Excel tracker using SUMIF, COUNTIF, and conditional formatting for data management.
+      </div>
+    </div>
+  </section>
+
+  <section id="papers">
+    <h2>📝 Paper Presentations</h2>
+    <ul>
+      <li><strong>Augmented Reality:</strong> Muthayammal Engineering College – 2nd place</li>
+      <li><strong>Virtual & Augmented Reality:</strong> ARIVOLI 2K25 – Knowledge Institute of Technology</li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <h2>🎯 Areas of Interest</h2>
+    <ul>
+      <li><strong>Front-End Development:</strong> Designing clean, responsive web interfaces</li>
+      <li><strong>Spreadsheet Automation:</strong> Excel-based tracking & calculations</li>
+      <li><strong>Augmented Reality:</strong> Curious about blending digital content with the real world</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>💪 Strengths</h2>
+    <ul>
+      <li><strong>Self-Learner:</strong> Learn independently with consistency</li>
+      <li><strong>Initiator:</strong> Start and complete tasks without waiting</li>
+      <li><strong>Trustworthy:</strong> Known for being responsible and dependable</li>
+      <li><strong>Passionate Learner:</strong> Always curious and eager to grow</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <p><strong>Email:</strong> dharshininagarajan572@gmail.com</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/dharshini" target="_blank">github.com/dharshini</a></p>
+  </section>
+
+ <section style="background-color: #fff3e0; padding: 3rem 1rem; text-align: center;">
+  <h2 style="color:#e65100; font-size: 2rem;">💌 A Note from Me and Myself</h2> </h2>
+  <p style="max-width: 800px; margin:auto; font-size: 1.1rem; color:#4e342e; line-height: 1.7;">
+    I'm Dharshini — a coder by passion, a creator by heart, and a soul that believes even the smallest things can bloom beautifully.  
+    <br><br>
+    My hands may write code, but they also sketch mehendi, plant greens, stir healthy recipes, and bring art to life. I build websites — but I also build peace in organized corners, joy in a garden pot, and confidence in quiet efforts.  
+    <br><br>
+    This portfolio is not just my work — it's my reflection.  
+    You’re not just scrolling through skills — you’re meeting someone who grows, creates, and smiles with purpose. ☀
+  </p>
+</section>
+    </p>
+  </section>
+
+  <footer>
+    <p>🌸 Made with 💜 by Dharshini</p>
+  </footer>
+
+</body>
+</html>
+
